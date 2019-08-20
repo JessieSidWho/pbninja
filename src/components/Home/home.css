@@ -1,7 +1,9 @@
-@media only screen and (max-width: 404px) {
-    /* #img {
-      margin-left: 15%;
-      padding-top: 65%;
-      align-content: center;
-    } */
+@media only screen and (max-width: 600px) {
+    #home {
+      height: 87vh !important;
+    }
+
+    #img {
+      padding-top: 150px !important;
+    }
   }
