@@ -95,7 +95,7 @@ const Pricing = () => {
 
                         <div className='row justify-content-md-center'>
                             <div className='col-md-5 text-center'>
-                                <button className='btn btn-light btn-block rounded-lg mt-3 mb-3 pl-5 pr-5'><i className="far fa-envelope"></i> Contact Us</button>
+                            <a href="mailto:thephotoboothninja@gmail.com" target="_top"><button className='btn btn-light btn-block rounded-lg mt-3 mb-3 pl-5 pr-5'><i className="far fa-envelope"></i> Contact Us</button></a>
                             </div>
                         </div>
 
