@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9751a702b9f14862684cc81255fb613f",
+    "revision": "b38b5a85a3e5720d2f4624d0743ce0ff",
     "url": "/pbninja/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pbninja/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "f73af916ed65416beb94",
+    "revision": "f8c494323e713a45adce",
     "url": "/pbninja/static/css/main.4a3ec60d.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pbninja/static/js/2.b17eae0c.chunk.js"
   },
   {
-    "revision": "f73af916ed65416beb94",
-    "url": "/pbninja/static/js/main.1321ab2c.chunk.js"
+    "revision": "f8c494323e713a45adce",
+    "url": "/pbninja/static/js/main.01fda353.chunk.js"
   },
   {
     "revision": "7ecddda8852b8ab3d821",
