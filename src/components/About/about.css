@@ -1,3 +1,24 @@
 #about { 
     background: linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,1));
 }
+
+
+
+/* @media only screen and (min-width: 728px){
+    #amenities{
+        height: 100% !important;
+        height: 100% !important;
+    }
+} */
+
+@media only screen and (max-width: 600px){
+    #boothProps{
+        height: 100%;
+        width: 100%;
+    }
+    #amenities{
+        margin: auto !important;
+        padding: auto !important;
+    }
+}
+

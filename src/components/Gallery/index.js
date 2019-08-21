@@ -19,16 +19,16 @@ import pic15 from '../../images/g15.jpg';
 
 const Gallery = () => {
     return (
-        <div id='gallery' className='row pb-5 justify-content-md-center bg-dark'>
-            <div className='col-md-12 '>
+        <div id='' className='row justify-content-md-center bg-dark'>
+            <div className='col-md-12'>
 
             <div id='cCol' className='row justify-content-md-center'>
 
-                <Carousel id='carousel' className='col-md-6'>
+                <Carousel id='carousel' className='col-md-6 justify-content-md-center'>
                     <Carousel.Item id='items'>
                       <img
                         id='images'
-                        className="d-block w-100"
+                        className="d-block mx-auto"
                         src={pic1}
                         alt=""
                       />
@@ -36,7 +36,7 @@ const Gallery = () => {
 
                     <Carousel.Item>
                       <img
-                        className="d-block w-100"
+                        className="d-block mx-auto"
                         src={pic2}
                         alt=""
                       />
@@ -44,7 +44,7 @@ const Gallery = () => {
 
                     <Carousel.Item>
                       <img
-                        className="d-block w-100"
+                        className="d-block mx-auto"
                         src={pic3}
                         alt=""
                       />
@@ -52,7 +52,7 @@ const Gallery = () => {
 
                     <Carousel.Item>
                       <img
-                        className="d-block w-100"
+                        className="d-block mx-auto"
                         src={pic4}
                         alt=""
                       />
@@ -60,7 +60,7 @@ const Gallery = () => {
 
                     <Carousel.Item>
                       <img
-                        className="d-block w-100"
+                        className="d-block mx-auto"
                         src={pic5}
                         alt=""
                       />
@@ -68,7 +68,7 @@ const Gallery = () => {
 
                     <Carousel.Item>
                       <img
-                        className="d-block w-100"
+                        className="d-block mx-auto"
                         src={pic6}
                         alt=""
                       />
@@ -76,7 +76,7 @@ const Gallery = () => {
 
                     <Carousel.Item>
                       <img
-                        className="d-block w-100"
+                        className="d-block mx-auto"
                         src={pic7}
                         alt=""
                       />
@@ -84,7 +84,7 @@ const Gallery = () => {
 
                     <Carousel.Item>
                       <img
-                        className="d-block w-100"
+                        className="d-block mx-auto"
                         src={pic8}
                         alt=""
                       />
@@ -92,7 +92,7 @@ const Gallery = () => {
 
                     <Carousel.Item>
                       <img
-                        className="d-block w-100"
+                        className="d-block mx-auto"
                         src={pic9}
                         alt=""
                       />
@@ -100,7 +100,7 @@ const Gallery = () => {
 
                     <Carousel.Item>
                       <img
-                        className="d-block w-100"
+                        className="d-block mx-auto"
                         src={pic10}
                         alt=""
                       />
@@ -108,7 +108,7 @@ const Gallery = () => {
 
                     <Carousel.Item>
                       <img
-                        className="d-block w-100"
+                        className="d-block mx-auto"
                         src={pic11}
                         alt=""
                       />
@@ -116,7 +116,7 @@ const Gallery = () => {
 
                     <Carousel.Item>
                       <img
-                        className="d-block w-100"
+                        className="d-block mx-auto"
                         src={pic12}
                         alt=""
                       />
@@ -124,7 +124,7 @@ const Gallery = () => {
 
                     <Carousel.Item>
                       <img
-                        className="d-block w-100"
+                        className="d-block mx-auto"
                         src={pic13}
                         alt=""
                       />
@@ -132,7 +132,7 @@ const Gallery = () => {
 
                     <Carousel.Item>
                       <img
-                        className="d-block w-100"
+                        className="d-block mx-auto"
                         src={pic14}
                         alt=""
                       />
@@ -140,7 +140,7 @@ const Gallery = () => {
 
                     <Carousel.Item>
                       <img
-                        className="d-block w-100"
+                        className="d-block mx-auto"
                         src={pic15}
                         alt=""
                       />

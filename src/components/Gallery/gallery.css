@@ -1,6 +1,6 @@
 #gallery {
     /* background-color: white; */
-    background: linear-gradient(rbga(255,255,255,1), rbga(52,58,64,1)) !important;
+    /* background: linear-gradient(rbga(255,255,255,1), rbga(52,58,64,1)) !important; */
 }
 
 #carousel {
@@ -14,7 +14,7 @@
 
 @media only screen and (max-width: 600px) {
     #carousel {
-        height: 40vh;
+        height: 53vh;
         margin: 0 0 !important;
         margin-top: 10% !important;
     }
