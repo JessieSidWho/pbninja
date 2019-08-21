@@ -13,11 +13,11 @@ const Title = () => {
                     
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ml-auto">
-                        <Nav.Link className='p-3 ' href="#home" style={{color: 'orangered'}}>Home</Nav.Link>
-                        <Nav.Link className='p-3 ' href="#about" style={{color: 'orangered'}}>About</Nav.Link>
-                        <Nav.Link className='p-3 ' href="#gallery" style={{color: 'orangered'}}>Gallery</Nav.Link>
-                        <Nav.Link className='p-3 ' href="#price" style={{color: 'orangered'}}>Pricing</Nav.Link>
-                        <Nav.Link className='p-3 ' href="#contact" style={{color: 'orangered'}}>Contact</Nav.Link>
+                        <Nav.Link className='p-3 animated bounce delay-2s' href="#home" style={{color: 'orangered'}}>Home</Nav.Link>
+                        <Nav.Link className='p-3 animated bounce delay-3s' href="#about" style={{color: 'orangered'}}>About</Nav.Link>
+                        <Nav.Link className='p-3 animated bounce delay-2s' href="#gallery" style={{color: 'orangered'}}>Gallery</Nav.Link>
+                        <Nav.Link className='p-3 animated bounce delay-3s' href="#price" style={{color: 'orangered'}}>Pricing</Nav.Link>
+                        <Nav.Link className='p-3 animated bounce delay-2s' href="#contact" style={{color: 'orangered'}}>Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

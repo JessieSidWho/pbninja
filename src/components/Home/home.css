@@ -1,9 +1,22 @@
-@media only screen and (max-width: 600px) {
-    #home {
+#home {
+  z-index: '-1';
+  height: 100vh;
+}
+
+#imgID {
+  z-index: '-1'; 
+  height: '30%'; 
+  width: '30%';
+}
+
+@media only screen and (max-width: 600px){
+    #home{
       height: 87vh !important;
     }
 
-    #img {
+    #imgID{
+      height: '40%' ;
+      width: '40%' ;
       padding-top: 150px !important;
     }
-  }
+}

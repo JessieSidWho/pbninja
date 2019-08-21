@@ -1,14 +1,11 @@
 #gallery {
-    background-color: white;
+    /* background-color: white; */
+    background: linear-gradient(rbga(255,255,255,1), rbga(52,58,64,1)) !important;
 }
 
 #carousel {
     height: 80vh;
     margin-top: 5%;
-}
-
-#cCol {
-    background: linear-gradient(rbga(0,0,0,.5))
 }
 
 #items {

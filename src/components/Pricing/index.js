@@ -6,7 +6,7 @@ const Pricing = () => {
         <div id='price' className='row justify-content-md-center mx-auto pt-5' style={{ zIndex: '5' }}>
             <div id='priceCol' className='col-md-12 mx-auto mt-5 mb-5 rounded-lg text-center'>
 
-                <h1 className='p-3' style={{ fontFamily: 'Comfortaa' }}>Pricing</h1>
+                <h1 className='p-3' style={{ fontFamily: 'Comfortaa', fontSize: '50px' }}>Packages & Pricing</h1>
 
                 <div className='row justify-content-md-center '>
                     <div className='col-md-12'>

@@ -19,8 +19,8 @@ import pic15 from '../../images/g15.jpg';
 
 const Gallery = () => {
     return (
-        <div id='gallery' className='row justify-content-md-center'>
-            <div className='col-md-12'>
+        <div id='gallery' className='row pb-5 justify-content-md-center bg-dark'>
+            <div className='col-md-12 '>
 
             <div id='cCol' className='row justify-content-md-center'>
 
