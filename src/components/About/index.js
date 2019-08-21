@@ -1,23 +1,35 @@
 import React from 'react';
 import './about.css';
+import Boxes from '../../images/package.jpg';
 
 const About = () => {
     return (
-        <div id='info' className='row justify-content-md-center mx-auto pt-5' style={{ zIndex: '5'}}>
-            <div id='whoWeAre' className='col-md-12 mx-auto mt-5 mb-5 rounded-lg'>
-                <h1 className='text-center' style={{fontFamily: 'Julius Sans One'}}>About The PhotoBooth Ninja</h1>
+        <div id='about' className='row justify-content-md-center mx-auto pt-5' style={{ zIndex: '5' }}>
+            <div id='' className='col-md-12 mx-auto mt-5 mb-5 rounded-lg'>
+                <h1 className='text-center' style={{ fontFamily: 'Comfortaa' }}>What we Offer</h1>
 
-                <div className='row mt-5 justify-content-md-center'>
+                <div className='row justify-content-md-center'>
 
-                    <div className='col-md-8 mx-auto p-5 border border-white'>
-                        <img className='mr-4 mb-2' src='https://via.placeholder.com/200x300' alt='placeholder' align='left' />
+                    <div className='col-md-8 mx-auto p-5' style={{}} >
                         <p>
-                            On Black art openings, Point, Exuma private dinners, in exchange Magnises-sponsored concerts, for hosting network at the festival socialize and and advertising Cardholders can the island. And hotels. Deserves. By shops, boutiques, amplifying our restaurants, bars, marketing efforts service at through their and premium existing channels, automatic upgrades we will Hotels Get follow up other members. 
+                            Photo booths have become an ever-growing part of events, weddings, parties, and conferences offering guests and hosts the chance to have fun and instantly share and have personal souvenirs.
                        </p>
-                       <img className='ml-4' src='https://via.placeholder.com/300x200' alt='placeholder' align='right' />
-                       <p>
-                            With talent influencers. For buyers to athletes and find suitable notable artists, last minute of other alternatives. Fyre and hundreds Festival Come, Queen Latifah, seek, for Jamie Foxx, searching is Antonio Pierce, the foundation DJ Khaled, of fortune Lil Wayne, What if entertainment including: we reimagined names in what it most iconic means to of the attend a the exploration music festival? and inspiration: The actual unique goal experience exceeds has a all expectations vision Fyre and is guests.
+
+                        <p>
+                            With a high quality camera, professional lighting, and a range of fun backgrounds and props, you'll end up with photographic quality 4x6 and/or 2x6 prints with exciting layouts customized especially for your event.
                        </p>
+
+                        <p>
+                            We also have an integrated touchscreen that allows users to email and text from the event.
+                       </p>
+
+                        <p>
+                            No unnecessary cramping or squishing. Smiles fun and plenty of memories!  With our Open Air Photo Fun Booth, you can fit your group of friends and family into images without feeling confined in a small space. Practice your poses now and book today!
+                       </p>
+
+                        <div className='text-center mt-4'>
+                            <img className='pt-5' src={Boxes} alt='placeholder' height='100%' width='100%' />
+                        </div>
                     </div>
 
                 </div>

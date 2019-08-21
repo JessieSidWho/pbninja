@@ -1,0 +1,24 @@
+#gallery {
+    background-color: white;
+}
+
+#carousel {
+    height: 80vh;
+    margin-top: 5%;
+}
+
+#cCol {
+    background: linear-gradient(rbga(0,0,0,.5))
+}
+
+#items {
+    position: center center;
+}
+
+@media only screen and (max-width: 600px) {
+    #carousel {
+        height: 40vh;
+        margin: 0 0 !important;
+        margin-top: 10% !important;
+    }
+}

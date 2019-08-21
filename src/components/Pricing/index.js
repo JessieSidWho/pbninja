@@ -4,9 +4,9 @@ import './pricing.css';
 const Pricing = () => {
     return (
         <div id='price' className='row justify-content-md-center mx-auto pt-5' style={{ zIndex: '5' }}>
-            <div id='' className='col-md-12 mx-auto mt-5 mb-5 rounded-lg text-center'>
+            <div id='priceCol' className='col-md-12 mx-auto mt-5 mb-5 rounded-lg text-center'>
 
-                <h1 className='p-3' style={{ fontFamily: 'Julius Sans One' }}>Ninja Pricing</h1>
+                <h1 className='p-3' style={{ fontFamily: 'Comfortaa' }}>Pricing</h1>
 
                 <div className='row justify-content-md-center '>
                     <div className='col-md-12'>
@@ -95,7 +95,7 @@ const Pricing = () => {
 
                         <div className='row justify-content-md-center'>
                             <div className='col-md-5 text-center'>
-                            <a href="mailto:thephotoboothninja@gmail.com" target="_top"><button className='btn btn-light btn-block rounded-lg mt-3 mb-3 pl-5 pr-5'><i className="far fa-envelope"></i> Contact Us</button></a>
+                            <a href="mailto:thephotoboothninja@gmail.com" target="_top"><button className='btn btn-danger btn-block  rounded-lg mt-3 mb-3 pl-5 pr-5'><i className="far fa-envelope"></i> Contact Us</button></a>
                             </div>
                         </div>
 

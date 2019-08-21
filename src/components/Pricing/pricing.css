@@ -1,4 +1,11 @@
 #price { 
-    background: linear-gradient(rgba(52,58,64,1), rgba(52,58,64,1));
-    color: white;
+    /* background: linear-gradient(rgba(52,58,64,1), rgba(52,58,64,1)); */
+    background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,1));
+    color: '#606060'
+}
+
+@media only screen and (max-width: 480px) {
+    #price, #priceCol {
+        margin: 0 0 !important;
+    }
 }
