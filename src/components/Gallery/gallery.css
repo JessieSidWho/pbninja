@@ -1,5 +1,5 @@
-#gallery {
-    /* background-color: white; */
+#pix {
+    background-color: white;
     /* background: linear-gradient(rbga(255,255,255,1), rbga(52,58,64,1)) !important; */
 }
 
@@ -14,8 +14,13 @@
 
 @media only screen and (max-width: 600px) {
     #carousel {
-        height: 53vh;
+        height: 45vh;
         margin: 0 0 !important;
         margin-top: 10% !important;
+    }
+    #images{
+        width: 100%;
+        text-align: center !important;
+        padding-top: auto !important;
     }
 }

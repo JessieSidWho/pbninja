@@ -2,6 +2,7 @@ import React from 'react';
 import './home.css';
 import Logo from './../../images/pb.jpg';
 import Flip from 'react-reveal/Flip';
+// import Jump from 'react-reveal/Jump';
 
 
 const Home = () => {
@@ -18,7 +19,9 @@ const Home = () => {
             <div id='arrow' className='row justify-content-md-center'>
                 <div className='col-md-12 mx-auto text-center' style={{ position: 'fixed', zIndex: '-1' }}>
                     <div>
+                        
                         <i className="animated bounce delay-2s fas fa-angle-double-down"></i>
+                        
                     </div>
                 </div>
             </div>

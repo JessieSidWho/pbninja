@@ -19,7 +19,7 @@ import pic15 from '../../images/g15.jpg';
 
 const Gallery = () => {
     return (
-        <div id='' className='row justify-content-md-center bg-dark'>
+        <div id='pix' className='row justify-content-md-center'>
             <div className='col-md-12'>
 
             <div id='cCol' className='row justify-content-md-center'>
@@ -30,6 +30,104 @@ const Gallery = () => {
                         id='images'
                         className="d-block mx-auto"
                         src={pic1}
+                        alt=""
+                      />
+                    </Carousel.Item>
+
+                    <Carousel.Item>
+                      <img
+                        id='images'
+                        className="d-block mx-auto"
+                        src={pic4}
+                        alt=""
+                      />
+                    </Carousel.Item>
+
+                    <Carousel.Item>
+                      <img
+                        id='images'
+                        className="d-block mx-auto"
+                        src={pic5}
+                        alt=""
+                      />
+                    </Carousel.Item>
+
+                    <Carousel.Item>
+                      <img
+                        id='images'
+                        className="d-block mx-auto"
+                        src={pic6}
+                        alt=""
+                      />
+                    </Carousel.Item>
+
+                    <Carousel.Item>
+                      <img
+                        id='images'
+                        className="d-block mx-auto"
+                        src={pic7}
+                        alt=""
+                      />
+                    </Carousel.Item>
+
+                    <Carousel.Item>
+                      <img
+                        id='images'
+                        className="d-block mx-auto"
+                        src={pic8}
+                        alt=""
+                      />
+                    </Carousel.Item>
+
+                    <Carousel.Item>
+                      <img
+                        id='images'
+                        className="d-block mx-auto"
+                        src={pic9}
+                        alt=""
+                      />
+                    </Carousel.Item>
+
+                    <Carousel.Item>
+                      <img
+                        id='images'
+                        className="d-block mx-auto"
+                        src={pic10}
+                        alt=""
+                      />
+                    </Carousel.Item>
+
+                    <Carousel.Item>
+                      <img
+                        id='images'
+                        className="d-block mx-auto"
+                        src={pic11}
+                        alt=""
+                      />
+                    </Carousel.Item>
+
+                    <Carousel.Item>
+                      <img
+                        id='images'
+                        className="d-block mx-auto"
+                        src={pic15}
+                        alt=""
+                      />
+                    </Carousel.Item>
+
+                    <Carousel.Item>
+                      <img
+                        id='images'
+                        className="d-block mx-auto"
+                        src={pic13}
+                        alt=""
+                      />
+                    </Carousel.Item>
+
+                    <Carousel.Item>
+                      <img
+                        className="d-block mx-auto"
+                        src={pic12}
                         alt=""
                       />
                     </Carousel.Item>
@@ -53,95 +151,7 @@ const Gallery = () => {
                     <Carousel.Item>
                       <img
                         className="d-block mx-auto"
-                        src={pic4}
-                        alt=""
-                      />
-                    </Carousel.Item>
-
-                    <Carousel.Item>
-                      <img
-                        className="d-block mx-auto"
-                        src={pic5}
-                        alt=""
-                      />
-                    </Carousel.Item>
-
-                    <Carousel.Item>
-                      <img
-                        className="d-block mx-auto"
-                        src={pic6}
-                        alt=""
-                      />
-                    </Carousel.Item>
-
-                    <Carousel.Item>
-                      <img
-                        className="d-block mx-auto"
-                        src={pic7}
-                        alt=""
-                      />
-                    </Carousel.Item>
-
-                    <Carousel.Item>
-                      <img
-                        className="d-block mx-auto"
-                        src={pic8}
-                        alt=""
-                      />
-                    </Carousel.Item>
-
-                    <Carousel.Item>
-                      <img
-                        className="d-block mx-auto"
-                        src={pic9}
-                        alt=""
-                      />
-                    </Carousel.Item>
-
-                    <Carousel.Item>
-                      <img
-                        className="d-block mx-auto"
-                        src={pic10}
-                        alt=""
-                      />
-                    </Carousel.Item>
-
-                    <Carousel.Item>
-                      <img
-                        className="d-block mx-auto"
-                        src={pic11}
-                        alt=""
-                      />
-                    </Carousel.Item>
-
-                    <Carousel.Item>
-                      <img
-                        className="d-block mx-auto"
-                        src={pic12}
-                        alt=""
-                      />
-                    </Carousel.Item>
-
-                    <Carousel.Item>
-                      <img
-                        className="d-block mx-auto"
-                        src={pic13}
-                        alt=""
-                      />
-                    </Carousel.Item>
-
-                    <Carousel.Item>
-                      <img
-                        className="d-block mx-auto"
                         src={pic14}
-                        alt=""
-                      />
-                    </Carousel.Item>
-
-                    <Carousel.Item>
-                      <img
-                        className="d-block mx-auto"
-                        src={pic15}
                         alt=""
                       />
                     </Carousel.Item>

@@ -4,6 +4,30 @@
     color: '#606060'
 }
 
+#package1{
+    background-color: lightskyblue;
+}
+
+#price1{
+    background-color: lightblue;
+}
+
+#package2{
+    background-color: lightskyblue;
+}
+
+#price2{
+    background-color: lightblue;
+}
+
+#package3{
+    background-color: lightskyblue;
+}
+
+#price3{
+    background-color: lightblue;
+}
+
 @media only screen and (max-width: 480px) {
     #price, #priceCol {
         margin: 0 0 !important;

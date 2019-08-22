@@ -3,7 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Title from './components/Title';
 import Home from './components/Home';
-import Gallery from './components/Gallery';
+import Gallery from './components/Gallery/gallery2';
 import About from './components/About';
 import Pricing from './components/Pricing';
 
