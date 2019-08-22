@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ac31a175d7bf8f385bab9cf45ec66b62",
+    "revision": "456e3f8f3c2a58e6385c4f96885eac1c",
     "url": "/pbninja/index.html"
   },
   {
-    "revision": "8b0cd1c8a4c0ae65d813",
-    "url": "/pbninja/static/css/2.266e55a5.chunk.css"
+    "revision": "2c15211e6bf91055529f",
+    "url": "/pbninja/static/css/2.a65581f3.chunk.css"
   },
   {
-    "revision": "a224be8061aac0ac4131",
-    "url": "/pbninja/static/css/main.58b8fb4b.chunk.css"
+    "revision": "0f9f3767f2b719cf1ad4",
+    "url": "/pbninja/static/css/main.a29951e9.chunk.css"
   },
   {
-    "revision": "8b0cd1c8a4c0ae65d813",
-    "url": "/pbninja/static/js/2.2c7c36f6.chunk.js"
+    "revision": "2c15211e6bf91055529f",
+    "url": "/pbninja/static/js/2.3e36c07b.chunk.js"
   },
   {
-    "revision": "a224be8061aac0ac4131",
-    "url": "/pbninja/static/js/main.26fa215a.chunk.js"
+    "revision": "0f9f3767f2b719cf1ad4",
+    "url": "/pbninja/static/js/main.9880acac.chunk.js"
   },
   {
     "revision": "7ecddda8852b8ab3d821",
