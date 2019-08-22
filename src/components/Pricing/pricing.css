@@ -5,27 +5,35 @@
 }
 
 #package1{
-    background-color: lightskyblue;
+    background-color: rgb(168, 213, 222);
 }
 
 #price1{
-    background-color: lightblue;
+    background-color: rgb(185, 221, 229);
 }
 
 #package2{
-    background-color: lightskyblue;
+    background-color: rgb(120, 178, 190);
 }
 
 #price2{
-    background-color: lightblue;
+    background-color: rgb(148, 193, 203);
 }
 
 #package3{
-    background-color: lightskyblue;
+    background-color: rgb(42, 138, 157);
 }
 
 #price3{
-    background-color: lightblue;
+    background-color: rgb(86, 161, 177);
+}
+
+#package4{
+    background-color: rgb(27, 92, 105);
+}
+
+#price4{
+    background-color: rgb(74, 125, 135);
 }
 
 @media only screen and (max-width: 480px) {

@@ -6,6 +6,8 @@ import Home from './components/Home';
 import Gallery from './components/Gallery/gallery2';
 import About from './components/About';
 import Pricing from './components/Pricing';
+// import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <About/>
       <Gallery/>
       <Pricing/>
+      {/* <Contact/> */}
+      <Footer/>
     </>
   );
 }

@@ -126,6 +126,37 @@ const Pricing = () => {
                     </div>
                 </div>
 
+                <div className='row justify-content-md-center'>
+                    <div id='package4' className='col-md-8 text-left mx-auto'>
+
+                        <div className='row justify-content-md-center '>
+                            <div id='price4' className='col-md-9 text-left mt-0'>
+                                <h3 className='pt-2'>$$$</h3>
+                            </div>
+                        </div>
+
+                        <h3 className='text-center pt-2'>A La Carte</h3>
+                        <ul>
+                            <li>+ $100 GIF/Animated enabled photos</li>
+
+                            <li>+ $150-200 Custom Wedding Backdrop</li>
+
+                            <li>+ $2 (per) Duplicate Prints</li>
+
+                            <li>+ $30 Guestbook/Scrapbook</li>
+
+                            <li>+ $45 Video Messaging After Photos</li>
+
+                            <li>+ $100 Additional Hour</li>
+                        </ul>
+                        <div className='row justify-content-md-center'>
+                            <div className='col-md-4 mx-auto text-center text-white'>
+                                <a href="mailto:thephotoboothninja@gmail.com" target="_top"><button className='text-white btn btn-danger rounded-pill mt-3 mb-3'><i className="far fa-envelope"></i> Contact Us</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     )
