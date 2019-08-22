@@ -9,8 +9,8 @@ import Bounce from 'react-reveal/Bounce';
 const About = () => {
     return (
         <div id='about' className='row justify-content-md-center mx-auto ' style={{ zIndex: '5' }}>
-            <div id='' className='col-md-12 mx-auto mb-5 rounded-lg'>
-                <Bounce delay='2200' top>
+            <div id='' className='col-md-12 mx-auto mb-5'>
+                <Bounce delay='2000' top>
                     <h1 className='text-center' style={{ fontFamily: 'Comfortaa', fontSize: '50px' }}>What we Offer</h1>
                 </Bounce>
                 <div className='row justify-content-md-center'>

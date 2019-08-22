@@ -6,7 +6,7 @@ import Home from './components/Home';
 import Gallery from './components/Gallery/gallery2';
 import About from './components/About';
 import Pricing from './components/Pricing';
-// import Contact from './components/Contact';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
       <About/>
       <Gallery/>
       <Pricing/>
-      {/* <Contact/> */}
+      <Contact/>
       <Footer/>
     </>
   );

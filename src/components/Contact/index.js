@@ -1,88 +1,112 @@
 import React, { Component } from 'react';
-import Form from 'react-bootstrap/Form';
-import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button';
 import './contact.css';
 
 class Contact extends Component {
 
+    state = {
+
+    };
+
+    handleChange = () => {
+
+    }
+
+    handleSubmit = () => {
+
+    }
+
 
     render() {
         return (
-            <div id='contact' className='row justify-content-md-center'>
-                <div className='col-md-8'>
+            <div id='contact' className='row justify-content-md-center mt-3 mb-5'>
+                {/* Pix/Animations */}
+                <div className='col-md-2'>
+
+                </div>
+
+                {/* Contact Form */}
+                <div className='col-md-6'>
+                    <h1 className='p-3 text-dark' style={{ fontFamily: 'Comfortaa', fontSize: '50px' }}>Contact</h1>
+
+                    <form>
+                        <div className='row border border-dark'>
+
+                            <input
+                                className='col-md-6 border border-bottom-0 border-dark pt-1 pb-5'
+                                name='name'
+                                type='name'
+                                placeholder='First & Last Name'
+                            // onChange={}
+                            // value={}
+                            />
+
+                            <input
+                                className='col-md-6 border border-bottom-0 border-dark pt-1 pb-5'
+                                name='hear'
+                                type='text'
+                                placeholder='How did you hear about us?'
+                            // onChange={}
+                            // value={}
+                            />
+
+                        </div>
+
+                        <div className='row border border-top-0 border-dark'>
+
+                            <input
+                                className='col-md-6 border border-top-0 border-dark pt-1 pb-5'
+                                name='email'
+                                type='email'
+                                pattern=''
+                                placeholder='E-mail'
+                            // onChange={}
+                            // value={}
+                            />
+
+                            <input
+                                className='col-md-6 border border-top-0 border-dark pt-1 pb-5'
+                                name='phone'
+                                type='tel'
+                                placeholder='Phone Number'
+                            // onChange={}
+                            // value={}
+                            />
+                        </div>
+
+                        <div className='row border border-top-0 border-dark'>
+                            <textarea
+                                className='col-md-12 border border-top-0 border-dark pt-2 pb-5'
+                                name='service'
+                                type='text'
+                                placeholder='How can we be of service to you?'
+                            // onChange={}
+                            // value={}
+                            />
+                        </div>
+
+                    </form>
 
                     <div className='row justify-content-md-center'>
-                        <div className='col-md-2 border border-dark'>
-
-                        </div>
-
-
-                        <div className='col-md-6 border border-dark'>
-                            <h1 className='p-3 text-dark' style={{ fontFamily: 'Comfortaa', fontSize: '50px' }}>Contact</h1>
-
-                            <Form>
-                                <Form.Row>
-                                    <Form.Group as={Col} controlId="formGridEmail">
-                                        <Form.Label>Email</Form.Label>
-                                        <Form.Control type="email" placeholder="Enter email" />
-                                    </Form.Group>
-
-                                    <Form.Group as={Col} controlId="formGridPassword">
-                                        <Form.Label>Password</Form.Label>
-                                        <Form.Control type="password" placeholder="Password" />
-                                    </Form.Group>
-                                </Form.Row>
-
-                                <Form.Group controlId="formGridAddress1">
-                                    <Form.Label>Address</Form.Label>
-                                    <Form.Control placeholder="1234 Main St" />
-                                </Form.Group>
-
-                                <Form.Group controlId="formGridAddress2">
-                                    <Form.Label>Address 2</Form.Label>
-                                    <Form.Control placeholder="Apartment, studio, or floor" />
-                                </Form.Group>
-
-                                <Form.Row>
-                                    <Form.Group as={Col} controlId="formGridCity">
-                                        <Form.Label>City</Form.Label>
-                                        <Form.Control />
-                                    </Form.Group>
-
-                                    <Form.Group as={Col} controlId="formGridState">
-                                        <Form.Label>State</Form.Label>
-                                        <Form.Control as="select">
-                                            <option>Choose...</option>
-                                            <option>...</option>
-                                        </Form.Control>
-                                    </Form.Group>
-
-                                    <Form.Group as={Col} controlId="formGridZip">
-                                        <Form.Label>Zip</Form.Label>
-                                        <Form.Control />
-                                    </Form.Group>
-                                </Form.Row>
-
-                                <Form.Group id="formGridCheckbox">
-                                    <Form.Check type="checkbox" label="Check me out" />
-                                </Form.Group>
-
-                                <Button variant="primary" type="submit">
-                                    Submit
-                                </Button>
-                            </Form>
-
-
-                        </div>
-
-
-                        <div className='col-md-2 border border-dark'>
-
+                        <div className='col-md-6 text-center ml-4 mt-4 mr-4'>
+                            <button 
+                            className='btn btn-block btn-dark rounded-pill'
+                            name='submit'
+                            type='submit'
+                            onChange={this.handleSubmit}
+                            >
+                                Submit
+                            </button>
                         </div>
                     </div>
 
+
                 </div>
+
+                {/* Pix/Animations */}
+                <div className='col-md-2'>
+
+                </div>
+
             </div>
         )
     }

@@ -6,7 +6,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const Gallery2 = () => {
     return (
-        <div id='pix' className='row justify-content-md-center'>
+        <div id='gallery' className='row justify-content-md-center'>
             <div className='col-md-6'>
             <Carousel />
 
