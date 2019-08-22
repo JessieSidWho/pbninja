@@ -2,14 +2,16 @@
     background: linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,1));
 }
 
+#amenities{
+    background-image: url('../../images/boxes.png');
+    /* background-attachment: fixed; */
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 6;
+    height: 40vh;
+}
 
-
-/* @media only screen and (min-width: 728px){
-    #amenities{
-        height: 100% !important;
-        height: 100% !important;
-    }
-} */
 
 @media only screen and (max-width: 600px){
     #boothProps{
@@ -17,8 +19,13 @@
         width: 100%;
     }
     #amenities{
-        margin: auto !important;
-        padding: auto !important;
+        background-image: url('../../images/boxes.png');
+        /* background-attachment: fixed; */
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        z-index: 6;
+        height: 18vh;
     }
 }
 
