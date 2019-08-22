@@ -14,7 +14,7 @@ const About = () => {
                     <h1 className='text-center' style={{ fontFamily: 'Comfortaa', fontSize: '50px' }}>What we Offer</h1>
                 </Bounce>
                 <div className='row justify-content-md-center'>
-                    <div className='col-md-8 mx-auto pl-5 pr-5 pb-5 ' style={{ fontSize: '20px' }} >
+                    <div className='col-md-8 mx-auto pl-5 pr-5 ' style={{ fontSize: '20px' }} >
                         <Rotate delay='2500' bottom right>
                             <p style={{ fontSize: '30px' }}>
                                 Are You Ready For Your Closeup?
