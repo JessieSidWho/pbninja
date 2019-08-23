@@ -8,6 +8,8 @@ import About from './components/About';
 import Pricing from './components/Pricing';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import AboveContact from './components/AboveContact';
+import UnderContact from './components/UnderContact';
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
       <About/>
       <Gallery/>
       <Pricing/>
+      <AboveContact/>
       <Contact/>
+      <UnderContact/>
       <Footer/>
     </>
   );

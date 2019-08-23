@@ -10,35 +10,35 @@ const About = () => {
     return (
         <div id='about' className='row justify-content-md-center mx-auto ' style={{ zIndex: '5' }}>
             <div id='' className='col-md-12 mx-auto mb-5'>
-                <Bounce delay='2000' top>
+                <Bounce delay='1300' top>
                     <h1 className='text-center' style={{ fontFamily: 'Comfortaa', fontSize: '50px' }}>What we Offer</h1>
                 </Bounce>
                 <div className='row justify-content-md-center'>
                     <div className='col-md-8 mx-auto pl-5 pr-5 ' style={{ fontSize: '20px' }} >
-                        <Rotate delay='2500' bottom right>
+                        <Rotate delay='1500' bottom right>
                             <p style={{ fontSize: '30px' }}>
                                 Are You Ready For Your Closeup?
                         </p>
                         </Rotate>
-                        <Rotate delay='1000' botton right>
+                        <Rotate delay='1200' botton right>
                             <p>
                                 Photo booths have become an ever-growing part of events, weddings, parties, and conferences offering guests and hosts the chance to have fun and instantly share and have personal souvenirs.
                        </p>
                         </Rotate>
-                        <Rotate delay='1000' botton left>
+                        <Rotate delay='500' botton left>
                             <p>
                                 With a high quality camera, professional lighting, and a range of fun backgrounds and props, you'll end up with photographic quality 4x6 and/or 2x6 prints with exciting layouts customized especially for your event.
-                            <Rotate delay='2500' top right>
+                            <Rotate delay='1500' top right>
                                     <img id='boothProps' className='' src={Props} alt='Booth Props' align='right' />
                                 </Rotate>
                             </p>
                         </Rotate>
-                        <Rotate delay='1000' botton right>
+                        <Rotate delay='500' botton right>
                             <p>
                                 We also have an integrated touchscreen that allows users to email and text from the event.
                        </p>
                         </Rotate>
-                        <Rotate delay='1000' botton right>
+                        <Rotate delay='500' top left>
                             <p>
                                 No unnecessary cramping or squishing. Smiles fun and plenty of memories!  With our Open Air Photo Fun Booth, you can fit your group of friends and family into images without feeling confined in a small space. Practice your poses now and book today!
                        </p>
@@ -47,7 +47,7 @@ const About = () => {
 
                 </div>
 
-                <Zoom delay='1000' bottom>
+                <Zoom delay='500' bottom>
                     <div id='amenities' className='row justify-content-md-center'>
                         <div className='col-md-12 text-center'>
                             {/* <img id="gallery" className='' src={Boxes} alt='placeholder' height='80%' width='80%' /> */}

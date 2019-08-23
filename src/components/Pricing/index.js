@@ -10,7 +10,7 @@ const Pricing = () => {
 
 
                 <div className='row justify-content-md-center'>
-                    <div id='package1' className='col-md-8 text-left mx-auto'>
+                    <div id='package1' className='col-md-9 text-left mx-auto'>
 
                         <div className='row justify-content-md-center '>
                             <div  id='price1' className='col-md-9 text-left'>
@@ -47,7 +47,7 @@ const Pricing = () => {
                 </div>
 
                 <div className='row justify-content-md-center'>
-                    <div id='package2' className='col-md-8 text-left mx-auto'>
+                    <div id='package2' className='col-md-9 text-left mx-auto'>
 
                         <div className='row justify-content-md-center '>
                             <div id='price2' className='col-md-9 text-left mt-0'>
@@ -86,7 +86,7 @@ const Pricing = () => {
                 </div>
 
                 <div className='row justify-content-md-center'>
-                    <div id='package3' className='col-md-8 text-left mx-auto'>
+                    <div id='package3' className='col-md-9 text-left mx-auto'>
 
                         <div className='row justify-content-md-center '>
                             <div id='price3' className='col-md-9 text-left mt-0'>
@@ -127,7 +127,7 @@ const Pricing = () => {
                 </div>
 
                 <div className='row justify-content-md-center'>
-                    <div id='package4' className='col-md-8 text-left mx-auto'>
+                    <div id='package4' className='col-md-9 text-left mx-auto'>
 
                         <div className='row justify-content-md-center '>
                             <div id='price4' className='col-md-9 text-left mt-0'>

@@ -15,6 +15,7 @@
     "react-scroll-parallax": "^2.1.2"
   },
   "scripts": {
+    "now-build": "react-scripts build && mv build dist",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

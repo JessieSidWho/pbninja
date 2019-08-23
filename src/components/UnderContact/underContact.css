@@ -1,0 +1,9 @@
+#t3{
+    width: 100%
+}
+
+@media only screen and (max-width: 600px){
+    #t3{
+        width: 50%;
+    }
+}
