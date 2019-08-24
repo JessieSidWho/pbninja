@@ -1,2 +1,25 @@
+/* .no1 {
+    color: white;
+} */
 
+.no2 {
+    font-size: 40px;
+    color: #3C5998;
+}
 
+.no3 {
+    font-size: 40px;
+    color: #D42424;
+}
+
+/* .no1:hover{
+    color: burlywood;
+} */
+
+.no2:hover{
+    color: #3C5998;
+}
+
+.no3:hover{
+    color: #D42424;
+}
