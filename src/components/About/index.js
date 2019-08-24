@@ -11,7 +11,7 @@ const About = () => {
         <div id='about' className='row justify-content-md-center mx-auto ' style={{ zIndex: '5' }}>
             <div id='' className='col-md-12 mx-auto mb-5'>
                 <Bounce delay='1300' top>
-                    <h1 className='text-center' style={{ fontFamily: 'Comfortaa', fontSize: '50px' }}>What we Offer</h1>
+                    <h1 className='text-center' style={{ fontFamily: 'Comfortaa', fontSize: '50px' }}>What We Offer</h1>
                 </Bounce>
                 <div className='row justify-content-md-center'>
                     <div className='col-md-8 mx-auto pl-5 pr-5 ' style={{ fontSize: '20px' }} >

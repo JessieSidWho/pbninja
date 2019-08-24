@@ -20,8 +20,8 @@ function App() {
       <Gallery/>
       <Pricing/>
       <AboveContact/>
-      <Contact/>
       <UnderContact/>
+      <Contact/>
       <Footer/>
     </>
   );

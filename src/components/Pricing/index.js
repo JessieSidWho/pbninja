@@ -18,7 +18,7 @@ const Pricing = () => {
                             </div>
                         </div>
 
-                        <h3 className='text-center pt-2'>Basic</h3>
+                        <h3 className='text-center pt-2'>BASIC</h3>
                         <ul>
                             <li>3-Hours Of Service</li>
 
@@ -40,7 +40,7 @@ const Pricing = () => {
                         </ul>
                         <div className='row justify-content-md-center'>
                             <div className='col-md-4 mx-auto text-center text-white'>
-                                <a href="mailto:thephotoboothninja@gmail.com" target="_top"><button className='text-white btn btn-danger rounded-pill mt-3 mb-3'><i className="far fa-envelope"></i> Contact Us</button></a>
+                            <a href="mailto:thephotoboothninja@gmail.com" className='text-white btn border border-white rounded-pill mt-3 mb-3'><i className="far fa-envelope"></i> Contact Us</a>
                             </div>
                         </div>
                     </div>
@@ -55,7 +55,7 @@ const Pricing = () => {
                             </div>
                         </div>
 
-                        <h3 className='text-center pt-2'>Standard</h3>
+                        <h3 className='text-center pt-2'>STANDARD</h3>
                         <ul>
                             <li>5-Hours Of Service</li>
 
@@ -79,7 +79,7 @@ const Pricing = () => {
                         </ul>
                         <div className='row justify-content-md-center'>
                             <div className='col-md-4 mx-auto text-center text-white'>
-                                <a href="mailto:thephotoboothninja@gmail.com" target="_top"><button className='text-white btn btn-danger rounded-pill mt-3 mb-3'><i className="far fa-envelope"></i> Contact Us</button></a>
+                            <a href="mailto:thephotoboothninja@gmail.com" className='text-white btn border border-white rounded-pill mt-3 mb-3'><i className="far fa-envelope"></i> Contact Us</a>
                             </div>
                         </div>
                     </div>
@@ -94,7 +94,7 @@ const Pricing = () => {
                             </div>
                         </div>
 
-                        <h3 className='text-center pt-2'>Premium</h3>
+                        <h3 className='text-center pt-2'>PREMIUM</h3>
                         <ul>
                             <li>7-Hours Of Service</li>
 
@@ -120,7 +120,7 @@ const Pricing = () => {
                         </ul>
                         <div className='row justify-content-md-center'>
                             <div className='col-md-4 mx-auto text-center text-white'>
-                                <a href="mailto:thephotoboothninja@gmail.com" target="_top"><button className='text-white btn btn-danger rounded-pill mt-3 mb-3'><i className="far fa-envelope"></i> Contact Us</button></a>
+                                <a href="mailto:thephotoboothninja@gmail.com" className='text-white btn border border-white rounded-pill mt-3 mb-3'><i className="far fa-envelope"></i> Contact Us</a>
                             </div>
                         </div>
                     </div>
@@ -135,7 +135,7 @@ const Pricing = () => {
                             </div>
                         </div>
 
-                        <h3 className='text-center pt-2'>A La Carte</h3>
+                        <h3 className='text-center pt-2'>A LA CARTE</h3>
                         <ul>
                             <li>+ $100 GIF/Animated enabled photos</li>
 
@@ -151,7 +151,7 @@ const Pricing = () => {
                         </ul>
                         <div className='row justify-content-md-center'>
                             <div className='col-md-4 mx-auto text-center text-white'>
-                                <a href="mailto:thephotoboothninja@gmail.com" target="_top"><button className='text-white btn btn-danger rounded-pill mt-3 mb-3'><i className="far fa-envelope"></i> Contact Us</button></a>
+                            <a href="mailto:thephotoboothninja@gmail.com" className='text-white btn border border-white rounded-pill mt-3 mb-3'><i className="far fa-envelope"></i> Contact Us</a>
                             </div>
                         </div>
                     </div>

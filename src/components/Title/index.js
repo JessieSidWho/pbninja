@@ -14,11 +14,11 @@ const Title = () => {
                 <Navbar.Brand className='' href="#home"><img id='navLogo' className='ml-5' src={Logo} alt='' height='55px'/></Navbar.Brand>  
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ml-auto">
-                        <Nav.Link className='p-3 animated bounce delay-2s' href="#home" style={{color: 'orangered'}}>Home</Nav.Link>
-                        <Nav.Link className='p-3 animated bounce delay-3s' href="#about" style={{color: 'orangered'}}>About</Nav.Link>
-                        <Nav.Link className='p-3 animated bounce delay-2s' href="#gallery" style={{color: 'orangered'}}>Gallery</Nav.Link>
-                        <Nav.Link className='p-3 animated bounce delay-3s' href="#price" style={{color: 'orangered'}}>Pricing</Nav.Link>
-                        <Nav.Link className='p-3 animated bounce delay-2s' href="#contact" style={{color: 'orangered'}}>Contact</Nav.Link>
+                        <Nav.Link className='p-3 animated bounce delay-2s' href="#home" style={{color: 'black'}}>Home</Nav.Link>
+                        <Nav.Link className='p-3 animated bounce delay-3s' href="#about" style={{color: 'black'}}>About</Nav.Link>
+                        <Nav.Link className='p-3 animated bounce delay-2s' href="#gallery" style={{color: 'black'}}>Gallery</Nav.Link>
+                        <Nav.Link className='p-3 animated bounce delay-3s' href="#price" style={{color: 'black'}}>Pricing</Nav.Link>
+                        <Nav.Link className='p-3 animated bounce delay-2s' href="#contact" style={{color: 'black'}}>Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

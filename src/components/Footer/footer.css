@@ -1,30 +1,32 @@
 .no1 {
-    font-size: 40px; 
-    color: white;
+    font-size: 25px; 
+    color: black;
 }
 
 .no2 {
-    font-size: 40px;
-    color: white;
+    font-size: 25px;
+    color: black;
 }
 
 .no3 {
-    font-size: 40px;
-    color: white;
+    font-size: 25px;
+    color: black;
 }
 
 .no4 {
-    font-size: 40px;
-    color: white;
+    font-size: 25px;
+    color: black;
 }
 
 .no5 {
-    font-size: 40px;
-    color: white;
+    font-size: 25px;
+    color: black;
 }
 
-.no1:hover{
-    color: burlywood;
+#logos1:hover{
+    color: #fff;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
 }
 
 .no2:hover{
@@ -41,4 +43,8 @@
 
 .no5:hover{
     color: orangered;
+}
+
+#footer{
+    opacity: .9;
 }

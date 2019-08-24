@@ -57,10 +57,19 @@ class Contact extends Component {
         return (
             <div id='contact' className='row justify-content-around mt-3 mb-5'>
 
-                <div className='col-md-9'>
+                <div className='col-md-9 pb-5 mb-5'>
                     <div className='row'>
 
 
+                        {/* Pix/Animations */}
+                        <div className='col-md-4 pt-2'>
+                            <Slide left delay='500'>
+                            <img id='t2' className='w-50 p-1' src={T2} alt='' />
+                            </Slide>
+                            <Slide bottom delay='500'>
+                            <img id='t3' className='w-50 p-1' src={T3} alt='' />
+                            </Slide>
+                        </div>
 
                         {/* Contact Form */}
                         <div id='contactForm' className='col-md-8'>
@@ -143,16 +152,6 @@ class Contact extends Component {
                                 </div>
                             </div>
 
-                        </div>
-
-                        {/* Pix/Animations */}
-                        <div className='col-md-4 pt-2'>
-                            <Slide bottom delay='500'>
-                            <img id='t2' className='w-50 p-1' src={T2} alt='' />
-                            </Slide>
-                            <Slide right delay='500'>
-                            <img id='t3' className='w-50 p-1' src={T3} alt='' />
-                            </Slide>
                         </div>
 
                     </div>
