@@ -42,7 +42,7 @@ class Contact extends Component {
 
 
                         {/* Contact Form */}
-                        <div className='col-md-8'>
+                        <div id='contactForm' className='col-md-8'>
                             <h1 className='p-3 text-dark' style={{ fontFamily: 'Comfortaa', fontSize: '50px' }}>Contact</h1>
 
                             <form>
@@ -126,7 +126,7 @@ class Contact extends Component {
 
                         {/* Pix/Animations */}
                         <div className='col-md-4 pt-2'>
-                            <Slide left delay='500'>
+                            <Slide bottom delay='500'>
                             <img id='t2' className='w-50 p-1' src={T2} alt='' />
                             </Slide>
                             <Slide right delay='500'>

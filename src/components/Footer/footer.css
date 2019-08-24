@@ -1,25 +1,44 @@
-/* .no1 {
+.no1 {
+    font-size: 40px; 
     color: white;
-} */
+}
 
 .no2 {
     font-size: 40px;
-    color: #3C5998;
+    color: white;
 }
 
 .no3 {
     font-size: 40px;
-    color: #D42424;
+    color: white;
 }
 
-/* .no1:hover{
+.no4 {
+    font-size: 40px;
+    color: white;
+}
+
+.no5 {
+    font-size: 40px;
+    color: white;
+}
+
+.no1:hover{
     color: burlywood;
-} */
+}
 
 .no2:hover{
-    color: #3C5998;
+    color: #4267B2;
 }
 
 .no3:hover{
     color: #D42424;
+}
+
+.no4:hover{
+    color: lightskyblue;
+}
+
+.no5:hover{
+    color: orangered;
 }
