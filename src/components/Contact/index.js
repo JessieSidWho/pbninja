@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './contact.css';
+import * as emailjs from 'emailjs-com';
 import T2 from '../../images/t2.jpg';
 import T3 from '../../images/t3.jpg';
 import Slide from 'react-reveal/Slide';
@@ -22,10 +23,30 @@ class Contact extends Component {
         this.setState({
             [name]: value
         });
+        // console.log(this.state);
     };
 
     handleSubmit = event => {
         event.preventDefault();
+
+        let template_params = {
+            "name": this.state.name,
+            "email": this.state.email,
+            "phone": this.state.phone,
+            "hear": this.state.hear,
+            "service": this.state.service
+         }
+         
+         let service_id = "default_service";
+         let template_id = "template_pvkoSJSW";
+         let user_id = "user_8g6W8dwcvNZ7EWVlS7jMg";
+
+         emailjs.send(service_id, template_id, template_params, user_id)
+         .then((response) => {
+            // console.log('SUCCESS!', response.status, response.text);
+         }, (err) => {
+            // console.log('FAILED...', err);
+         });
 
 
         this.setState({ name: '', hear: '', email: '', phone: '', service: '' });
