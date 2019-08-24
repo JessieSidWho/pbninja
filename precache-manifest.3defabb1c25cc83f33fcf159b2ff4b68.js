@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "914a98fa26c4cabe1b0ebb807600b627",
+    "revision": "a145f19d8bdbca8eb71710b072d832e8",
     "url": "/pbninja/index.html"
   },
   {
-    "revision": "c3aa54b859afc24025c5",
+    "revision": "c1ff0df41df9a7cad513",
     "url": "/pbninja/static/css/2.a65581f3.chunk.css"
   },
   {
-    "revision": "159142b27720e9a6b9a6",
-    "url": "/pbninja/static/css/main.07817a1e.chunk.css"
+    "revision": "a5701df195a67cd482a1",
+    "url": "/pbninja/static/css/main.2011b95f.chunk.css"
   },
   {
-    "revision": "c3aa54b859afc24025c5",
-    "url": "/pbninja/static/js/2.f442c671.chunk.js"
+    "revision": "c1ff0df41df9a7cad513",
+    "url": "/pbninja/static/js/2.19c2770d.chunk.js"
   },
   {
-    "revision": "159142b27720e9a6b9a6",
-    "url": "/pbninja/static/js/main.15e57dbc.chunk.js"
+    "revision": "a5701df195a67cd482a1",
+    "url": "/pbninja/static/js/main.d953aacd.chunk.js"
   },
   {
     "revision": "7ecddda8852b8ab3d821",
     "url": "/pbninja/static/js/runtime~main.4dbfe6d0.js"
+  },
+  {
+    "revision": "8f7f13406454b5e8622f8511c5f72944",
+    "url": "/pbninja/static/media/Instagram-300x300.8f7f1340.png"
   },
   {
     "revision": "39ffe3ae1e2bb21240317f77f41de329",
