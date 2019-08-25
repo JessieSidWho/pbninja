@@ -4,6 +4,7 @@ import * as emailjs from 'emailjs-com';
 import T2 from '../../images/t2.jpg';
 import T3 from '../../images/t3.jpg';
 import Slide from 'react-reveal/Slide';
+import Swal from 'sweetalert2';
 
 class Contact extends Component {
 
@@ -43,11 +44,21 @@ class Contact extends Component {
 
          emailjs.send(service_id, template_id, template_params, user_id)
          .then((response) => {
+            Swal.fire({
+                title: 'Sweet!',
+                text: 'The PhotoBooth Ninja has received your Inquiry!',
+                imageUrl: 'https://doc-0g-c8-docs.googleusercontent.com/docs/securesc/09uor7tfjvrlmponiv9agjtpkdrqfi6n/jgu3li6ofpv46kslakrgekatobe2ffmn/1566712800000/11950157827955506024/10852443605815171160/1km-aqg8iva6xahEx2_4pjnY1LORWKmZK?nonce=71k91icjda550&user=10852443605815171160&hash=jjm7rokqk975ubge3ta1bfq68el6t49e',
+                imageWidth: 250,
+                imageHeight: 250,
+                imageAlt: 'Custom image',
+                animation: false
+              })
             // console.log('SUCCESS!', response.status, response.text);
          }, (err) => {
+            Swal.fire('Uh oh . .', 
+            'You\'re Inquiry was not sent. If this error keeps occuring, please Call or Email me directly at: (619) 504-7147 | ThePhotoBoothNinja@gmail.com', 'error')
             // console.log('FAILED...', err);
          });
-
 
         this.setState({ name: '', hear: '', email: '', phone: '', service: '' });
     }
@@ -85,6 +96,7 @@ class Contact extends Component {
                                         placeholder='First & Last Name'
                                         onChange={this.handleChange}
                                         value={this.state.name}
+                                        required='true'  
                                     />
 
                                     <input
@@ -94,6 +106,7 @@ class Contact extends Component {
                                         placeholder='How did you hear about us?'
                                         onChange={this.handleChange}
                                         value={this.state.hear}
+                                        required='true'
                                     />
 
                                 </div>
@@ -104,10 +117,11 @@ class Contact extends Component {
                                         className='col-md-6 border border-top-0 border-dark pt-1 pb-5'
                                         name='email'
                                         type='email'
-                                        pattern=''
+                                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
                                         placeholder='E-mail'
                                         onChange={this.handleChange}
                                         value={this.state.email}
+                                        required='true'
                                     />
 
                                     <input
@@ -117,6 +131,7 @@ class Contact extends Component {
                                         placeholder='Phone Number'
                                         onChange={this.handleChange}
                                         value={this.state.phone}
+                                        required='true'
                                     />
                                 </div>
 
@@ -128,6 +143,7 @@ class Contact extends Component {
                                         placeholder='How can we be of service to you?'
                                         onChange={this.handleChange}
                                         value={this.state.service}
+                                        required='true'
                                     />
                                 </div>
 
