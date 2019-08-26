@@ -47,7 +47,7 @@ class Contact extends Component {
             Swal.fire({
                 title: 'Sweet!',
                 text: 'The PhotoBooth Ninja has received your Inquiry!',
-                imageUrl: 'https://doc-0g-c8-docs.googleusercontent.com/docs/securesc/09uor7tfjvrlmponiv9agjtpkdrqfi6n/jgu3li6ofpv46kslakrgekatobe2ffmn/1566712800000/11950157827955506024/10852443605815171160/1km-aqg8iva6xahEx2_4pjnY1LORWKmZK?nonce=71k91icjda550&user=10852443605815171160&hash=jjm7rokqk975ubge3ta1bfq68el6t49e',
+                imageUrl: 'https://drive.google.com/uc?id=1km-aqg8iva6xahEx2_4pjnY1LORWKmZK',
                 imageWidth: 250,
                 imageHeight: 250,
                 imageAlt: 'Custom image',
