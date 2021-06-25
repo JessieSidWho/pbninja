@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import './contact.css';
-import * as emailjs from 'emailjs-com';
-import{ init } from 'emailjs-com';
-init("user_8g6W8dwcvNZ7EWVlS7jMg");
 import T2 from '../../images/t2.jpg';
 import T3 from '../../images/t3.jpg';
 import Slide from 'react-reveal/Slide';
 import Swal from 'sweetalert2';
+import * as emailjs from 'emailjs-com';
+
+import{ init } from 'emailjs-com';
+init("user_8g6W8dwcvNZ7EWVlS7jMg");
 
 class Contact extends Component {
 
