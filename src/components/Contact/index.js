@@ -38,8 +38,8 @@ class Contact extends Component {
             "service": this.state.service
          }
          
-         let service_id = "default_service";
-         let template_id = "template_pvkoSJSW";
+         let service_id = "gmail";
+         let template_id = "the_pb_ninja_template_LV";
          let user_id = "user_8g6W8dwcvNZ7EWVlS7jMg";
 
          emailjs.send(service_id, template_id, template_params, user_id)
