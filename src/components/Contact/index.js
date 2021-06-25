@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './contact.css';
 import * as emailjs from 'emailjs-com';
+import{ init } from 'emailjs-com';
+init("user_8g6W8dwcvNZ7EWVlS7jMg");
 import T2 from '../../images/t2.jpg';
 import T3 from '../../images/t3.jpg';
 import Slide from 'react-reveal/Slide';
@@ -38,11 +40,11 @@ class Contact extends Component {
             "service": this.state.service
          }
          
-         let service_id = "gmail";
+         let service_id = "The_pb_ninja_gmail";
          let template_id = "the_pb_ninja_template_LV";
-         let user_id = "user_8g6W8dwcvNZ7EWVlS7jMg";
+        //  let user_id = "user_8g6W8dwcvNZ7EWVlS7jMg";
 
-         emailjs.send(service_id, template_id, template_params, user_id)
+         emailjs.send(service_id, template_id, template_params)
          .then((response) => {
             Swal.fire({
                 title: 'Sweet!',
