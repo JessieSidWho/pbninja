@@ -14,7 +14,7 @@ const Pricing = () => {
 
                         <div className='row justify-content-md-center '>
                             <div  id='price1' className='col-md-9 text-left'>
-                                <h3 className='pt-2'>$500</h3>
+                                <h3 className='pt-2'>$600</h3>
                             </div>
                         </div>
 
@@ -34,7 +34,7 @@ const Pricing = () => {
 
                             <li>On-Site Booth Attendant</li>
 
-                            <li>Social Media Integration</li>
+                            <li>Email Integration</li>
 
                             <li>USB - Thumbdrive of original & booth photos of entire event</li>
                         </ul>
@@ -51,7 +51,7 @@ const Pricing = () => {
 
                         <div className='row justify-content-md-center '>
                             <div id='price2' className='col-md-9 text-left mt-0'>
-                                <h3 className='pt-2'>$700</h3>
+                                <h3 className='pt-2'>$800</h3>
                             </div>
                         </div>
 
@@ -71,7 +71,7 @@ const Pricing = () => {
 
                             <li>On-Site Booth Attendant</li>
 
-                            <li>Social Media Integration</li>
+                            <li>Email Integration</li>
 
                             <li>Guestbook/Scrapbook for guests to write a personal message for you to keep</li>
 
@@ -90,7 +90,7 @@ const Pricing = () => {
 
                         <div className='row justify-content-md-center '>
                             <div id='price3' className='col-md-9 text-left mt-0'>
-                                <h3 className='pt-2'>$900</h3>
+                                <h3 className='pt-2'>$1000</h3>
                             </div>
                         </div>
 
@@ -110,7 +110,7 @@ const Pricing = () => {
 
                             <li>On-Site Booth Attendant</li>
 
-                            <li>Social Media Integration</li>
+                            <li>Email Integration</li>
 
                             <li>Gif Enabled Photos</li>
 
@@ -137,13 +137,13 @@ const Pricing = () => {
 
                         <h3 className='text-center pt-2'>A LA CARTE</h3>
                         <ul>
-                            <li>+ $100 GIF/Animated enabled photos</li>
+                            <li>+ $150 GIF/Animated enabled photos</li>
 
-                            <li>+ $150-200 Custom Wedding Backdrop</li>
+                            <li>+ $200-250 Custom Wedding Backdrop</li>
 
-                            <li>+ $2 (per) Duplicate Prints</li>
+                            <li>+ $2 (per duplicate prints)</li>
 
-                            <li>+ $30 Guestbook/Scrapbook</li>
+                            <li>+ $40 Guestbook/Scrapbook</li>
 
                             <li>+ $45 Video Messaging After Photos</li>
 
