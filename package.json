@@ -2,7 +2,7 @@
   "name": "pbninja",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://www.thephotoboothninja.com",
+  "homepage": "https://jessiesidwho.github.io/pbninja/",
   "dependencies": {
     "bootstrap": "^5.3.3",
     "emailjs-com": "^2.3.2",
