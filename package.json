@@ -2,7 +2,7 @@
   "name": "pbninja",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://thephotoboothninja.com",
+  "homepage": "https://www.thephotoboothninja.com",
   "dependencies": {
     "bootstrap": "^5.3.3",
     "emailjs-com": "^2.3.2",
